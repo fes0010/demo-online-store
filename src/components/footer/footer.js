@@ -4,15 +4,6 @@ import { useState } from "react";
 
 const Data = [
   {
-    footerHeder: "Support",
-    footerTitle: [
-      "111 Bijoy sarani, Dhaka, DH 1515, Bangladesh.",
-      "ocazion@gmail.com",
-      " +20-000-0000-000",
-    ],
-    footerLink: [],
-  },
-  {
     footerHeder: "Quick Link",
     footerTitle: ["Privacy Policya", "Termes Of Use", "FAQ", "Contact"],
     footerLink: ["/404", "/404", "/404", "/404"],
