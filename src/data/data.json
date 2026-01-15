@@ -52,7 +52,7 @@
         "title": "HAVIT HV-G92 Gamepad",
         "discount": "-20%",
         "price": 120,
-        "oldPrice": "$160",
+        "oldPrice": "Ksh 160",
         "reviewStar": 5,
         "numperReview": "88",
         "cardActive": ""
@@ -63,7 +63,7 @@
         "title": "AK-900 Wired Keyboard",
         "discount": "-35%",
         "price": 960,
-        "oldPrice": "$1160",
+        "oldPrice": "Ksh 1160",
         "reviewStar": 4,
         "numperReview": "75",
         "cardActive": ""
@@ -74,7 +74,7 @@
         "title": "IPS LCD Gaming Monitor",
         "discount": "-30%",
         "price": 370,
-        "oldPrice": "$400",
+        "oldPrice": "Ksh 400",
         "reviewStar": 5,
         "numperReview": "99",
         "cardActive": ""
@@ -85,7 +85,7 @@
         "title": "S-Series Comfort Chair",
         "discount": "-25%",
         "price": 375,
-        "oldPrice": "$400",
+        "oldPrice": "Ksh 400",
         "reviewStar": 4.5,
         "numperReview": "99",
         "cardActive": ""
@@ -96,7 +96,7 @@
         "title": "Small BookSelf",
         "discount": "10%",
         "price": 360,
-        "oldPrice": "$340",
+        "oldPrice": "Ksh 340",
         "reviewStar": 2.5,
         "numperReview": "65",
         "cardActive": ""
@@ -107,7 +107,7 @@
         "title": "Gucci dufflr bag",
         "discount": "50%",
         "price": 960,
-        "oldPrice": "$480",
+        "oldPrice": "Ksh 480",
         "reviewStar": 3.5,
         "numperReview": "72",
         "cardActive": ""
@@ -165,7 +165,7 @@
         "img": "assets/images/bestSelling/jacket.png",
         "title": "HAVIT HV-G92 Gamepad",
         "price": 120,
-        "oldPrice": "$160",
+        "oldPrice": "Ksh 160",
         "reviewStar": 2.5,
         "numperReview": "65",
         "cardActive": ""
@@ -175,7 +175,7 @@
         "img": "assets/images/bestSelling/gucci.png",
         "title": "AK-900 Wired Keyboard",
         "price": 960,
-        "oldPrice": "$1160",
+        "oldPrice": "Ksh 1160",
         "reviewStar": 3.5,
         "numperReview": "75",
         "cardActive": ""
@@ -185,7 +185,7 @@
         "img": "assets/images/bestSelling/speaker.png",
         "title": "IPS LCD Gaming Monitor",
         "price": 370,
-        "oldPrice": "$400",
+        "oldPrice": "Ksh 400",
         "reviewStar": 3.5,
         "numperReview": "99",
         "cardActive": ""
@@ -195,7 +195,7 @@
         "img": "assets/images/bestSelling/bookSelf.png",
         "title": "S-Series Comfort Chair",
         "price": 375,
-        "oldPrice": "$400",
+        "oldPrice": "Ksh 400",
         "reviewStar": 2.5,
         "numperReview": "99",
         "cardActive": ""

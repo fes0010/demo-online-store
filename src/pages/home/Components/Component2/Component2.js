@@ -77,8 +77,8 @@ const Component2 = ({ TargetDate, Data, rawData, setrawData }) => {
       );
       const updatedCart = itemExists
         ? updatedData.Cart.filter(
-            (item) => item.productImg !== newCardData.productImg
-          )
+          (item) => item.productImg !== newCardData.productImg
+        )
         : [...updatedData.Cart, newCardData];
       setrawData({ ...updatedData, Cart: updatedCart });
     }
@@ -159,11 +159,10 @@ const Component2 = ({ TargetDate, Data, rawData, setrawData }) => {
                               onClick={() => handleClick(item.id)}
                             >
                               <i
-                                className={`bi ${
-                                  item.cardActive
+                                className={`bi ${item.cardActive
                                     ? "bi-bag-check-fill"
                                     : "bi-bag-plus"
-                                } d-flex justify-content-center pt-2`}
+                                  } d-flex justify-content-center pt-2`}
                               />
                             </li>
                           </ul>
@@ -172,7 +171,7 @@ const Component2 = ({ TargetDate, Data, rawData, setrawData }) => {
                       <div className="card-body p-0 mt-3">
                         <h5 className="card-title">{item.title}</h5>
                         <p className="card-text m-0">
-                          ${item.price}
+                          Ksh {item.price}
                           <span className="text-decoration-line-through">
                             {item.oldPrice}
                           </span>
@@ -231,8 +230,8 @@ function StarCollector({ reviewStar }) {
               star === "full"
                 ? "star"
                 : star === "half"
-                ? "star-half-outline"
-                : "star-outline"
+                  ? "star-half-outline"
+                  : "star-outline"
             }
           />
         </li>

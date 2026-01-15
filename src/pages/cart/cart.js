@@ -114,7 +114,7 @@ const Cart = ({ Data, SetData }) => {
                           </span>
                         </div>
                       </td>
-                      <td className="text-center py-1">${item.productPrice}</td>
+                      <td className="text-center py-1">Ksh {item.productPrice}</td>
                       <td className="text-center py-1">
                         <div className="spinner">
                           <input
@@ -171,7 +171,7 @@ const Cart = ({ Data, SetData }) => {
                 <div>
                   <div className="d-flex justify-content-between mt-4 pb-3 cartBoxDeeb">
                     <span>Subtotal:</span>
-                    <span className="cusSpan">${subtotal}</span>
+                    <span className="cusSpan">Ksh {subtotal}</span>
                   </div>
                   <div className="d-flex justify-content-between mt-4 pb-3 cartBoxDeeb">
                     <span>Shipping:</span>
@@ -179,7 +179,7 @@ const Cart = ({ Data, SetData }) => {
                   </div>
                   <div className="d-flex justify-content-between mt-4 pb-3">
                     <span>Total:</span>
-                    <span className="cusSpan">${subtotal}</span>
+                    <span className="cusSpan">Ksh {subtotal}</span>
                   </div>
                 </div>
               </div>
