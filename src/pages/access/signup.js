@@ -39,8 +39,8 @@ const Signup = ({ Data, SetData }) => {
   return (
     <>
       <Helmet>
-        <title>Shanga Beauty Shop | SignUp</title>
-        <meta name="description" content="Shanga Beauty Shop | SignUp" />
+        <title>Ocazion | SignUp</title>
+        <meta name="description" content="Ocazion | SignUp" />
       </Helmet>
       <section id="access">
         <div className="container">

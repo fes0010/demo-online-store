@@ -68,13 +68,13 @@ const Presentation = () => {
               >
                 <div className="item text-center mt-2">
                   <h3>
-                    Welcome to <span className="d-block mt-2">Shanga Beauty Shop</span>
+                    welcome in <span className="d-block mt-2">ocazion</span>
                   </h3>
                 </div>
                 <div className="item text-center mt-1">
                   <h4>
-                    Only the best for
-                    <span className="d-block mt-2">Our Customers</span>
+                    my name is
+                    <span className="d-block mt-2">ahmed abd alalim</span>
                   </h4>
                 </div>
                 <div className="item text-center mt-3">

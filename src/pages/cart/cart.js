@@ -61,8 +61,8 @@ const Cart = ({ Data, SetData }) => {
   return (
     <>
       <Helmet>
-        <title>Shanga Beauty Shop | Cart</title>
-        <meta name="description" content="Shanga Beauty Shop | Cart" />
+        <title>Ocazion | Cart</title>
+        <meta name="description" content="Ocazion | Cart" />
       </Helmet>
       <section id="cart">
         <div className="container my-5">
@@ -114,7 +114,7 @@ const Cart = ({ Data, SetData }) => {
                           </span>
                         </div>
                       </td>
-                      <td className="text-center py-1">KSh {item.productPrice}</td>
+                      <td className="text-center py-1">${item.productPrice}</td>
                       <td className="text-center py-1">
                         <div className="spinner">
                           <input
@@ -153,13 +153,25 @@ const Cart = ({ Data, SetData }) => {
             </div>
           </div>
           <div className="row my-5">
+            <div className="col-12 col-lg-6 coupon d-flex justify-content-center">
+              <div>
+                <input
+                  type="text"
+                  placeholder="Coupon Code"
+                  className="ps-2 py-1 me-1"
+                ></input>
+                <button type="submit" className=" px-2 py-2">
+                  Apply Coupon
+                </button>
+              </div>
+            </div>
             <div className="col-10 col-lg-4 py-3 px-4 m-0 m-auto cartBox mt-4 mt-lg-0">
               <div>
                 <h5>Cart Total</h5>
                 <div>
                   <div className="d-flex justify-content-between mt-4 pb-3 cartBoxDeeb">
                     <span>Subtotal:</span>
-                    <span className="cusSpan">KSh {subtotal.toLocaleString()}</span>
+                    <span className="cusSpan">${subtotal}</span>
                   </div>
                   <div className="d-flex justify-content-between mt-4 pb-3 cartBoxDeeb">
                     <span>Shipping:</span>
@@ -167,11 +179,8 @@ const Cart = ({ Data, SetData }) => {
                   </div>
                   <div className="d-flex justify-content-between mt-4 pb-3">
                     <span>Total:</span>
-                    <span className="cusSpan">KSh {subtotal.toLocaleString()}</span>
+                    <span className="cusSpan">${subtotal}</span>
                   </div>
-                  <Link to="/checkout" className="checkout-btn">
-                    Proceed to Checkout
-                  </Link>
                 </div>
               </div>
             </div>

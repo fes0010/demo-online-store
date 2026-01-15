@@ -26,8 +26,8 @@ const About = ({ Data }) => {
   return (
     <>
       <Helmet>
-        <title>Shanga Beauty Shop | About</title>
-        <meta name="description" content="About Shanga Beauty Shop" />
+        <title>Ocazion | About</title>
+        <meta name="description" content="Ocazion | About" />
       </Helmet>
       <div id="about">
         <section className="ourStory">
@@ -39,10 +39,12 @@ const About = ({ Data }) => {
                   <h1>Our Story</h1>
                   <div className="mt-4 ms-2 ms-lg-0">
                     <p>
-                      Launched in 2024, Shanga Beauty Shop is Kenya's premier online
-                      beauty marketplace with an active presence in Nairobi.
-                      We offer a wide range of beauty products, perfumes, and jewelry,
-                      serving thousands of customers across the region.
+                      Launced in 2015, Exclusive is South Asia's premier online
+                      shopping makterplace with an active presense in
+                      Bangladesh. Supported by wide range of tailored marketing,
+                      data and service solutions, Exclusive has 10,500 sallers
+                      and 300 brands and serves 3 millioons customers across the
+                      region.
                     </p>
                     <p className="mt-4">
                       Exclusive has more than 1 Million products to offer,

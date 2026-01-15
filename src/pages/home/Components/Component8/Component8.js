@@ -1,10 +1,6 @@
 import "./Component8.css";
 
 const Component8 = ({ Data }) => {
-  if (!Data || Data.length === 0) {
-    return null;
-  }
-
   return (
     <section id="Edit-section">
       <div className="container">

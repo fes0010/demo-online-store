@@ -52,8 +52,8 @@ const Account = ({ Data, SetData }) => {
   return (
     <>
       <Helmet>
-        <title>Shanga Beauty Shop | Account</title>
-        <meta name="description" content="Shanga Beauty Shop | Account" />
+        <title>Ocazion | Account</title>
+        <meta name="description" content="Ocazion | Account" />
       </Helmet>
       <section id="userAcount" className="mt-5 mb-4">
         <div className="container py-2">

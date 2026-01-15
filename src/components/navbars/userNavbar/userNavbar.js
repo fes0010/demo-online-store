@@ -28,13 +28,13 @@ const GuestNabar = ({ Data }) => {
     });
   }, []);
 
-  const handleLinkClick = () => { };
+  const handleLinkClick = () => {};
   return (
     <div id="Nave">
       <nav className="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
         <div className="container-fluid pt-0 pb-0 pt-lg-4 pb-lg-1">
           <Link className="navbar-brand ms-0 ms-lg-5" to="/home">
-            Shanga Beauty Shop
+            Ocazion
           </Link>
           <div className="d-flex gap-2">
             <div className="H_B_f d-flex d-lg-none mt-1 justify-content-center align-items-center">
@@ -79,7 +79,7 @@ const GuestNabar = ({ Data }) => {
           >
             <div className="offcanvas-header d-flex  d-lg-none justify-content-between">
               <h5 className="offcanvas-title" id="offcanvasNavbarLabel">
-                Shanga Beauty Shop
+                Ocazion
               </h5>
               <ion-icon
                 data-bs-dismiss="offcanvas"

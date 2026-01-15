@@ -64,10 +64,11 @@ const Component6 = ({ Data, rawData, setrawData }) => {
                       </li>
                       <li className="mt-1" onClick={() => handleClick(item.id)}>
                         <i
-                          className={`bi ${item.cardActive
+                          className={`bi ${
+                            item.cardActive
                               ? "bi-bag-check-fill"
                               : "bi-bag-plus"
-                            } d-flex justify-content-center pt-2`}
+                          } d-flex justify-content-center pt-2`}
                         />
                       </li>
                     </ul>
@@ -76,7 +77,7 @@ const Component6 = ({ Data, rawData, setrawData }) => {
                 <div className="card-body p-0 mt-3">
                   <h5 className="card-title">{item.title}</h5>
                   <div className="d-flex gap-2">
-                    <p className="card-text m-0">KSh {item.price}</p>
+                    <p className="card-text m-0">${item.price}</p>
                     <div className="card-text d-flex gap-1">
                       <ul className="list-unstyled d-flex m-0">
                         <StarCollector reviewStar={item.reviewStar} />
@@ -129,8 +130,8 @@ function StarCollector({ reviewStar }) {
               star === "full"
                 ? "star"
                 : star === "half"
-                  ? "star-half-outline"
-                  : "star-outline"
+                ? "star-half-outline"
+                : "star-outline"
             }
           />
         </li>

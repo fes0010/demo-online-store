@@ -34,12 +34,7 @@ const Component5 = ({ TargetDate, Data }) => {
     }
     const intervalId = setInterval(CountDown, 1000);
     return () => clearInterval(intervalId);
-  }, [TargetDate]);
-
-  // Don't render if no data
-  if (!Data || Data.length === 0) {
-    return null;
-  }
+  }, []);
 
   return (
     <section id="Edit-section">

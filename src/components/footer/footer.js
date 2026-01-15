@@ -4,8 +4,17 @@ import { useState } from "react";
 
 const Data = [
   {
+    footerHeder: "Support",
+    footerTitle: [
+      "111 Bijoy sarani, Dhaka, DH 1515, Bangladesh.",
+      "ocazion@gmail.com",
+      " +20-000-0000-000",
+    ],
+    footerLink: [],
+  },
+  {
     footerHeder: "Quick Link",
-    footerTitle: ["Privacy Policy", "Terms Of Use", "FAQ", "Contact"],
+    footerTitle: ["Privacy Policya", "Termes Of Use", "FAQ", "Contact"],
     footerLink: ["/404", "/404", "/404", "/404"],
   },
 ];
@@ -19,7 +28,7 @@ const Footer = () => {
         <div className="row justify-content-center pt-5 pb-3">
           <div className="col-12 col-lg-3 d-flex my-0 my-lg-3 mb-4 mb-lg-0">
             <div>
-              <h4>Shanga Beauty Shop</h4>
+              <h4>Ocazion</h4>
               <h6 className="mb-3 mt-4">Subscribe</h6>
               <div>
                 <p>Get 10% off your first order</p>
@@ -117,10 +126,16 @@ const Footer = () => {
       </div>
       <div className="socket text-center py-3">
         <p className="m-0">
-          &copy; {new Date().getFullYear()} Shanga Beauty Shop. All Right Reserved.
+          &copy; 2024 Ocazion. All Right Reserved by
+          <a href="https://ahmedabdalalim.pages.dev/">
+            <img
+              src="https://raw.githubusercontent.com/ahmed-abd-alalim/ahmed-abd-alalim/main/assets/3A.png"
+              alt="3A"
+            />
+          </a>
         </p>
       </div>
-    </footer >
+    </footer>
   );
 };
 

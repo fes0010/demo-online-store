@@ -106,23 +106,3 @@
 #cart .cartBox .cusSpan {
     color: var(--mix_red);
 }
-
-.checkout-btn {
-    display: block;
-    width: 100%;
-    padding: 12px;
-    margin-top: 20px;
-    background: var(--mix_red);
-    color: white !important;
-    text-align: center;
-    text-decoration: none;
-    border-radius: var(--_5px);
-    font-weight: 600;
-    transition: all 0.3s;
-}
-
-.checkout-btn:hover {
-    background: #c13537;
-    transform: translateY(-2px);
-    color: white !important;
-}

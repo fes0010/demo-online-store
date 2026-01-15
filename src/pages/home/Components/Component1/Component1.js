@@ -15,11 +15,6 @@ const Component1 = ({ Data }) => {
     }
   }, [Data]);
 
-  // Don't render if no data
-  if (!Data || Data.length === 0) {
-    return null;
-  }
-
   return (
     <section className=" mb-5 mt-3 mt-lg-0">
       <div className="container">

@@ -8,8 +8,8 @@ const Contact = ({ Data, SetData }) => {
   return (
     <>
       <Helmet>
-        <title>Shanga Beauty Shop | Contact</title>
-        <meta name="description" content="Shanga Beauty Shop | Contact" />
+        <title>Ocazion | Contact</title>
+        <meta name="description" content="Ocazion | Contact" />
       </Helmet>
       <section id="contact" className="my-4">
         <div className="container py-5">
@@ -27,9 +27,9 @@ const Contact = ({ Data, SetData }) => {
                     </h6>
                   </div>
                   <span className="d-block pt-3">
-                    We are available 24/7, 7 days a week.
+                    We are available 24/7,7 day a week.
                   </span>
-                  <span className="d-block pt-2">Phone: +254-000-000-000</span>
+                  <span className="d-block pt-2">Phone: +20-000-0000-000</span>
                 </div>
                 <hr className="my-4" />
                 <div>
@@ -45,10 +45,10 @@ const Contact = ({ Data, SetData }) => {
                     Fill out form and we will contact you within 24 hours.
                   </span>
                   <span className="d-block pt-2">
-                    Email: customer@shanga.com
+                    Email: customer@ocazion.com
                   </span>
                   <span className="d-block pt-1">
-                    Email: support@shanga.com
+                    Email: support@ocazion.com
                   </span>
                 </div>
               </div>
