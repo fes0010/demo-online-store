@@ -2,6 +2,11 @@ import "./Component7.css";
 import { Link } from "react-router-dom";
 
 const Component7 = ({ Data }) => {
+  // Don't render if no data or insufficient items
+  if (!Data || Data.length < 4) {
+    return null;
+  }
+
   return (
     <section id="Edit-section">
       <div className="container">

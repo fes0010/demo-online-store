@@ -1,6 +1,6 @@
 <div align="center">
-<h1 align="center">🛍️ Ocazion – Responsive eCommerce Website Template</h1>
-Ocazion is a fully responsive 🖥️📱 eCommerce website template built with HTML, CSS, JavaScript, Bootstrap, and React. Designed for modern online stores, it provides a seamless and dynamic shopping experience across all devices.
+<h1 align="center">🛍️ Shanga Beauty Shop – Admin & eCommerce Store</h1>
+Shanga Beauty Shop is a responsive eCommerce platform built with React and Supabase. Designed for modern online stores, it provides a seamless and dynamic shopping experience across all devices.
 <br />
 <br />
 <a href="https://ocazion.rf.gd"><strong>➥ Live Demo</strong></a>
@@ -47,15 +47,15 @@ Before you begin, ensure you have met the following requirements:
 - [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
 
 
-## Installing Ocazion
+## Installing Shanga Store
 
-To install **Ocazion**, follow these steps:
+To install **Shanga Store**, follow these steps:
 
 Windows:
 
 ```bash
-git clone https://github.com/ahmed-abd-alalim/Ocazion.git
-cd Ocazion
+git clone https://github.com/festoh/shanga-store.git
+cd shanga-store
 npm i
 npm start
 ```

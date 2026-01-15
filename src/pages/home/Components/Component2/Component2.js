@@ -5,13 +5,22 @@ import { useState, useEffect } from "react";
 const Component2 = ({ TargetDate, Data, rawData, setrawData }) => {
   useEffect(() => {
     const $carousel = window.$("#flash-owl-demo");
-    $carousel.owlCarousel({
-      navigation: true,
-    });
+    if (Data && Data.length > 0) {
+      $carousel.owlCarousel({
+        navigation: true,
+        items: 4, // Explicitly set items to ensure it renders correctly
+        margin: 10,
+        responsive: {
+          0: { items: 1 },
+          600: { items: 2 },
+          1000: { items: 4 }
+        }
+      });
+    }
     return () => {
-      $carousel.trigger("destroy.owl.carousel"); // Clean up jQuery carousel on unmount
+      $carousel.trigger("destroy.owl.carousel");
     };
-  }, []);
+  }, [Data]);
 
   const [date, setDate] = useState({
     Days: "00",
@@ -43,7 +52,7 @@ const Component2 = ({ TargetDate, Data, rawData, setrawData }) => {
     }
     const intervalId = setInterval(CountDown, 1000);
     return () => clearInterval(intervalId);
-  }, []);
+  }, [TargetDate]);
 
   const handleClick = (id) => {
     const updatedData = {
@@ -77,8 +86,8 @@ const Component2 = ({ TargetDate, Data, rawData, setrawData }) => {
       );
       const updatedCart = itemExists
         ? updatedData.Cart.filter(
-            (item) => item.productImg !== newCardData.productImg
-          )
+          (item) => item.productImg !== newCardData.productImg
+        )
         : [...updatedData.Cart, newCardData];
       setrawData({ ...updatedData, Cart: updatedCart });
     }
@@ -159,11 +168,10 @@ const Component2 = ({ TargetDate, Data, rawData, setrawData }) => {
                               onClick={() => handleClick(item.id)}
                             >
                               <i
-                                className={`bi ${
-                                  item.cardActive
-                                    ? "bi-bag-check-fill"
-                                    : "bi-bag-plus"
-                                } d-flex justify-content-center pt-2`}
+                                className={`bi ${item.cardActive
+                                  ? "bi-bag-check-fill"
+                                  : "bi-bag-plus"
+                                  } d-flex justify-content-center pt-2`}
                               />
                             </li>
                           </ul>
@@ -172,9 +180,9 @@ const Component2 = ({ TargetDate, Data, rawData, setrawData }) => {
                       <div className="card-body p-0 mt-3">
                         <h5 className="card-title">{item.title}</h5>
                         <p className="card-text m-0">
-                          ${item.price}
+                          KSh {item.price}
                           <span className="text-decoration-line-through">
-                            {item.oldPrice}
+                            KSh {item.oldPrice}
                           </span>
                         </p>
                         <div className="card-text d-flex gap-1">
@@ -231,8 +239,8 @@ function StarCollector({ reviewStar }) {
               star === "full"
                 ? "star"
                 : star === "half"
-                ? "star-half-outline"
-                : "star-outline"
+                  ? "star-half-outline"
+                  : "star-outline"
             }
           />
         </li>

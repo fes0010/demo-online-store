@@ -35,8 +35,8 @@ const Login = ({ Data, SetData }) => {
   return (
     <>
       <Helmet>
-        <title>Ocazion | LogIn</title>
-        <meta name="description" content="Ocazion | LogIn" />
+        <title>Shanga Beauty Shop | LogIn</title>
+        <meta name="description" content="Shanga Beauty Shop | LogIn" />
       </Helmet>
       <section id="access">
         <div className="container">
@@ -50,7 +50,7 @@ const Login = ({ Data, SetData }) => {
             </div>
             <div className="col-12 col-lg-6 d-flex justify-content-center align-items-center mt-0 mt-lg-5 my-5 my-lg-0">
               <div>
-                <h3>Login to Ocazion</h3>
+                <h3>Login to Shanga Beauty Shop</h3>
                 <p>Enter your details below</p>
                 <form action="#" className="mt-4">
                   <input

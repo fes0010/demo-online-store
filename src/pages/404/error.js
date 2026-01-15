@@ -8,7 +8,7 @@ const Error = () => {
     <>
       <Helmet>
         <title>404 Not Found</title>
-        <meta name="description" content="Ocazion | 404 Not Found" />
+        <meta name="description" content="Shanga Beauty Shop | 404 Not Found" />
       </Helmet>
       <section id="error">
         <div className="container my-5">
