@@ -2,7 +2,7 @@ import { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import RawData from "./data/data.json";
-import Presentation from "./components/presentation/presentation";
+
 import Fnav from "./components/navbars/fristNavbar/fristNavbar";
 import GustNavbar from "./components/navbars/gustNavbar/guestNabar";
 import UserNavbar from "./components/navbars/userNavbar/userNavbar";
@@ -23,7 +23,7 @@ function App() {
   const [Data, setData] = useState(RawData);
   return (
     <Router>
-      <Presentation />
+
       <Fnav />
       {Data.Access ? (
         <UserNavbar Data={Data.Cart} />
